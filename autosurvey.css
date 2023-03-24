@@ -1,0 +1,110 @@
+body {
+    width: auto;
+    height: auto;
+    margin: auto;
+    font: 100;
+    background-image: url(https://images.pexels.com/photos/4062473/pexels-photo-4062473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  }
+  
+  .survey {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  background-color: #1b1b32;
+  opacity: 0.94;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 0;
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width:  fit-content;
+    margin: auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+  }
+
+  .fillout {
+    margin-top: 0%;
+    margin-bottom: -1%;
+  }
+
+  .process {
+    margin-top: -12%;
+    margin-bottom: 8%;
+  }
+
+  .recommend {
+    margin-top: -12%;
+    margin-bottom: -1%;
+  }
+
+  .category {
+    margin-top: -12%;
+    margin-bottom: 0%;
+  }
+
+  .features {
+    margin-top: -12%;
+    margin-bottom: 5%;
+  }
+
+  .comments {
+    margin-top: -10%;
+    margin-bottom: -5%;
+  }
+
+  .sub {
+    margin-top: 15%;
+    margin-bottom: 5;
+    margin-left: -15%;
+  }

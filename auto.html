@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="autosurvey.css">
+</head>
+<form id="survey-form">
+<body>
+    <div class="survey">
+    <h1 id="title">Luxury Auto Source Customer Survey</h1>
+    <div class="fillout">
+    <p id="description">Please fill out this quick survey so that we can continue to provide our customers the best car buying experience!</p>
+    <label id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required></label>
+    <label id="email-label">Email <input id="email" type="email" placeholder="Enter your Email" required></label> 
+    <label id="number-label">Age (optional) <input id="number" type="number" name="age" min="16" max="120" placeholder="Age"></label>
+</fieldset>
+    <fieldset>
+        </fieldset>
+        <div class="process">
+    <label>Where are you in the car shopping process?</label>
+    <select id="dropdown">
+    <option value="">Select Option</option>
+    <option value="1">Ready to buy</option>
+    <option value="2">Buying within the month</option>
+    <option value="3">Currently researching</option>
+    <option value="4">Just looking</option>
+    <option value="5">Prefer Not to Say</option>
+    </select>
+    </div>
+    </fieldset>
+    <fieldset>
+    <div class="recommend">
+    <label>Would you recommend our services to a friend?</label>
+    <label><input type="radio" name="Definitely" value="Definitely" class="inline">Definitely</label>
+    <label><input type="radio" name="Definitely" value="Maybe" class="inline">Maybe</label>
+    <input type="radio" name="Definitely" value="Not Sure" class="inline">Not Sure</label>
+    </div>
+    </fieldset>
+    <fieldset>
+        <div class="category">
+    <label>What category of vehicle are you shopping for?</label>
+    <select>
+        <option value="">Select Option</option>
+        <option value="1">Full Size Sedan</option>
+        <option value="2">Sport Sedan</option>
+        <option value="3">Compact Sedan</option>
+        <option value="4">Full Size SUV</option>
+        <option value="5">Compact SUV</option>
+    </div>
+    </select>
+    </fieldset>
+    <fieldset>
+        <div class="features">
+    <label>What features do you value most when searching for a new vehicle? (Check all that apply</label>
+    <label><input type="checkbox" value="infotainment" class="inline">Infotainment System</label>
+<label><input type="checkbox" value="interior" class="inline">Interior Quality</label>
+<label><input type="checkbox" value="quiet-cabin" class="inline">Quiet Cabin</label>
+<label><input type="checkbox" value="safety" class="inline">Safety Features</label>
+<label><input type="checkbox" value="tech" class="inline">Advanced Technology</label>
+<label><input type="checkbox" value="sport" class="inline">Sportiness</label>
+<label><input type="checkbox" value="lux" class="inline">Luxury Appointments</label>
+<label><input type="checkbox" value="reliability" class="inline">Reliability</label>
+</div>
+</fieldset>
+<div class="comments"><label>Please provide any comments or suggestions</label>
+<textarea name="bio" rows="3" cols="30" placeholder="Enter your comments here..."></textarea>
+</div>
+<input id="submit" type="submit" value="submit">
+</div>
+</form>  
+</body>
+</html>   
